@@ -1,0 +1,75 @@
+
+.HeroSection {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #f1f3ff;
+  }
+  
+  .HeroTitle {
+    margin-top: 4;
+  }
+  .HeroContentNew {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .HeroContent {
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+  }
+  
+  .HeroContent h1 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .HeroTitle {
+    padding-top:5em ;
+    font-weight:400;
+  }
+
+  
+  @media (min-width: 768px) {
+    .HeroSection {
+      flex-direction: row;
+      margin-top: 30px;
+    }
+  
+    .HeroImage {
+      margin-right: 0;
+      
+    }
+
+    .HeroTitle {
+      padding-left: 1em;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .HeroSection {
+      height: auto;
+      margin-top: 30px;
+    }
+  
+    .HeroContent {
+      padding: 3rem 5rem;
+    }
+  
+    .HeroImage {
+      margin-top: 5rem;
+    }
+
+    .HeroTitle {
+      padding-left: 7em;
+    }
+    
+  }

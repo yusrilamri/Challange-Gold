@@ -1,0 +1,21 @@
+.Footer {
+    margin-bottom: 50px
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.navbarFooter {
+    font-weight: 400;
+    
+}
+
+.imgIcon {
+    margin-right: 10px;
+}
+
+#footerBrand {
+    width: 5em;
+}

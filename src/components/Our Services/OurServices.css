@@ -1,0 +1,56 @@
+.OurServices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+ul.OurServicesList {
+    
+    padding-left: 0;
+    
+}
+
+.OurServicesList {
+    list-style: none;
+    margin-left: 0px;
+}
+
+
+li {
+    color: black;
+    position: relative;
+    list-style: none;
+
+ 
+}
+
+#listOurServices:before {
+    content:url(/public/assets/image/Icon2.png);
+    position: relative;
+    top:6px;
+    padding-right: 15px;
+    
+ 
+}
+
+.OurServicesImage {
+    width:21em;
+}
+
+@media (min-width: 768px) {
+    .OurServicesImage {
+        width: auto;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .OurServices {
+      display: flex;
+      flex-direction: row;
+
+    }
+}

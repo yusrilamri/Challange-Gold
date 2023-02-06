@@ -1,0 +1,37 @@
+.HasilPencarianmuHeader {
+    padding-top: 200px;
+    background-color: #F1F3FF;
+    
+}
+
+
+.pencarianmuTittle{
+    padding-left: 10px;
+}
+
+.cardPencarianmuSearchBox {
+    margin-bottom: 200px;
+    box-shadow: inset;
+    -webkit-box-shadow: 0px 0 5px 0 #555;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 2;
+    top: 100px;
+    
+}
+
+.containerPencarianmuSearchBox    {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.CariMobil {
+    display: flex;
+}
+
+
+#buttonEdit {
+    margin-top: 32px;
+    margin-left: px;
+    
+}
